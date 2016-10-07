@@ -231,7 +231,7 @@ echo $pagingLink;
   
   $(".pdprice").click(function (){
     var pdi = $(this).attr("alt").split("-");
-      $(this).html("<input type='text' id='pricein' style='text-align:right;' class='box' />");
+      $(this).html("<input type='text' id='pricein' style='text-align:right;' class='box' value='"+$(this).html()+"' />");
           $("#pricein").focus();
               var current = $(this);
               $("#pricein").blur(function (){
