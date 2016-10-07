@@ -1,0 +1,146 @@
+/*************************** General Styling ***************************/
+
+/* Page Styling */
+body {
+background: #fff url(lib/images/page-bg-obsidian.png) repeat-x;
+}
+
+
+#bg {
+    left: 0;
+    position: fixed;
+    top: 0;
+    background:transparent;
+    background-repeat:no-repeat;
+    z-index:-100;
+}
+
+.bgwidth {
+    width: 100%;
+}
+
+
+
+
+
+/* Text Styling */
+a,
+#nav ul li > a:hover,
+#nav ul .current-menu-item > a,
+#nav ul .current-menu-ancestor > a,
+#nav .sub-menu a:hover,
+#nav .sub-menu .li-first a:hover,
+#nav .current-menu-item .sub-menu a:hover,
+#nav .current-menu-ancestor .sub-menu a:hover {
+color: #336574;
+}
+a:hover,
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+color: #2794b5;
+}
+
+ul li,
+.recentcomments,
+.slider-button,
+.slide-prev,
+.slide-next,
+h3.accordion-title,
+h3.toggle,
+h3.comments {
+background-image: url(lib/images/sprite-obsidian.png);
+}
+
+
+/*************************** Gradient 1 ***************************/
+
+input[type="submit"],
+input[type="reset"],
+.wp-pagenavi .current,
+.wp-pagenavi.cat-navi a:hover,
+.wp-pagenavi.comment-navi a:hover,
+.wp-pagenavi .page:hover,
+.wp-pagenavi.post-navi span,
+.wp-pagenavi.post-navi a span:hover {
+border: 1px solid #989898;
+background-color: #fefefe;
+background-image: -moz-linear-gradient(#fefefe, #d7d7d7);
+background-image: -webkit-linear-gradient(#fefefe, #d7d7d7);
+background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fefefe), to(#d7d7d7));
+background-image: -o-linear-gradient(#fefefe, #d7d7d7);
+background-image: -ms-linear-gradient(#fefefe, #d7d7d7);
+-pie-background: linear-gradient(#fefefe, #d7d7d7);
+color: #000;
+}
+
+
+/*************************** Content Areas ***************************/
+
+/* Page Wrap*/
+#page-wrapper {
+/*background: url(lib/images/header-glass.png) no-repeat center top;*/
+}
+
+
+/*************************** Header ***************************/
+
+/* User Panel */
+#user-panel {
+border-color: #444;
+-webkit-box-shadow:inset 0 -1px 3px #111;
+-moz-box-shadow:inset 0 1px 3px #111;
+box-shadow:inset 0 -1px 3px #111;
+}
+
+
+/*************************** Footer ***************************/
+
+/* Footer Bottom */
+#footer-bottom-outer {
+background: url(lib/images/footer-bottom-obsidian.png) repeat-x;
+}
+
+
+/*************************** BuddyPress ***************************/
+
+.bp-wrapper #content-wrapper div.item-list-tabs ul li.selected a span,	
+.bp-wrapper #content-wrapper div.item-list-tabs ul li.selected a,
+.bp-wrapper #content-wrapper div.item-list-tabs ul li a:hover,
+.bp-wrapper #content-wrapper div.item-list-tabs ul li.current a,
+.bp-wrapper #content-wrapper div.item-list-tabs ul li a span:hover,
+.bp-wrapper #content-wrapper div.item-list-tabs ul li a:hover span,
+.bp-wrapper #content-wrapper .bbp-admin-links a:hover {
+color: #336574;
+}
+
+.bp-wrapper #content-wrapper .activity-meta a span {
+background-color: #23444b;
+}
+
+#content-wrapper .widget input[type="button"],
+#content-wrapper .widget input[type="submit"],
+#content-wrapper .widget input[type="reset"],
+#content-wrapper .widget input[type="file"],
+#content-wrapper .widget button,
+.bp-wrapper #content-wrapper .button,
+.bp-wrapper #content-wrapper a.button,
+.bp-wrapper #content-wrapper ul.button-nav li a,
+.bp-wrapper #content-wrapper div.generic-button a,
+.bp-wrapper #content-wrapper .comment-reply-link,
+.bp-wrapper #content-wrapper #previous-next input,
+.bp-wrapper #content-wrapper #submit_topic_cancel,
+.bp-wrapper #content-wrapper .acomment-options a {
+border-color: #23444b;
+background-color: #366a7b;
+background-image: -moz-linear-gradient(#366a7b, #23444b);
+background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#366a7b), to(#23444b));
+background-image: -webkit-linear-gradient(#366a7b, #23444b);
+background-image: -o-linear-gradient(#366a7b, #23444b);
+background-image: -ms-linear-gradient(#366a7b, #23444b);
+-pie-background: linear-gradient(#366a7b, #23444b);
+color: #fff;
+}

@@ -1,0 +1,662 @@
+
+/* New Style for EO */
+
+a:link {
+    color: #E6E6E6;
+    text-decoration: none;
+}
+
+
+
+a:visited {
+    color: #E6E6E6;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: rgb(105,109,104);
+    text-decoration: none;
+}
+
+
+a:active {
+    color: rgb(105,109,104);
+    text-decoration: none;
+}
+
+body { 
+    -webkit-text-size-adjust: none;
+}
+
+div { 
+    overflow: visible; 
+}
+
+img { 
+    border: none; 
+    -ms-interpolation-mode: bicubic;
+     
+}
+.flags {
+	width : 20px;
+}
+
+	
+}
+#home{
+    
+    border: none;
+ 
+
+}
+
+.slogan_big {
+    color: rgb(135, 129, 124);
+    font-family: 'CenturyGothic', 'Century Gothic';
+    font-size: 21px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 25px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: right;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+    vertical-align: middle;
+}
+
+.slogan_big_center {
+    color: rgb(135, 129, 124);
+    font-family: 'CenturyGothic', 'Century Gothic';
+    font-size: 21px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 25px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+    vertical-align: middle;
+}
+
+.slogan_small {
+    color: rgb(95, 89, 84);
+    font-family: 'CenturyGothic', 'Century Gothic';
+    font-size: 12px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 15px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+    vertical-align: middle;
+}
+
+.main_menu {
+    color: #E6E6E6;
+    font-family: "verdana";
+    font-size: 20px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 18px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+    vertical-align: middle;
+    	text-transform: uppercase;
+}
+
+.text_gray {
+    color: rgb(50, 50, 50);
+    font-family: "Arial";
+    font-size: 12px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+    vertical-align: top;
+}
+
+.text_white {
+    color: rgb(175,169,164);
+    font-family: "Century Gothic";
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+    vertical-align: top;
+}
+
+.title_button {
+    color: #AFA9A4;
+    font-family: "Arial";
+    font-size: 12px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+    vertical-align: middle;
+    border: none;
+    
+    
+  
+}
+
+.news_feed {
+    color: rgb(175,169,164);
+    font-family: "Arial";
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+    vertical-align: middle;
+
+}
+
+.product_button {
+    color: rgb(175,169,164);
+    font-family: "Century Gothic";
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 18px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+    vertical-align: middle;
+}
+
+#product_menu {
+    color: rgb(175,169,164);
+    font-family: "Verdana";
+    font-size: 13px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 25px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 0px;
+    margin-top:10px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+    vertical-align: middle;
+
+}
+
+.shopping_list {
+    color: rgb(175,169,164);
+    font-family: "Century Gothic";
+    font-size: 12px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 25px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 0px;
+    margin-top:10px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+    vertical-align: middle;
+
+}
+
+.copyright {
+    color: rgb(175,169,164);
+    font-family: "Arial";
+    font-size: 10px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 12px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+    vertical-align: middle;
+}
+
+
+.special_menu {
+    color: rgb(175,169,164);
+    font-family: "Arial";
+    font-size: 12px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin-bottom: 0px;
+    margin-left:15px;
+    margin-right: 0px;
+    margin-top:10px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+    vertical-align: middle;
+
+}
+
+.product_desc_small {
+    color: rgb(175,169,164);
+    font-family: "Century Gothic";
+    font-size: 13px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin-bottom: 0px;
+    margin-left:5px;
+    margin-right: 0px;
+    margin-top:10px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+    vertical-align: middle;
+
+}
+
+
+.price_small {
+    color: rgb(214,53,51);
+    font-family: "Century Gothic";
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 0px;
+    margin-top:10px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+    vertical-align: middle;
+}
+
+
+.price_medium {
+    color: rgb(234,53,51);
+    font-family: "Century Gothic";
+    font-size: 18px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 18px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 0px;
+    margin-top:10px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+    vertical-align: middle;
+}
+
+.price_grey {
+    color: rgb(175,169,164);
+    font-family: "Century Gothic";
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 18px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 0px;
+    margin-top:10px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+    vertical-align: middle;
+}
+
+.store_button {
+    color: rgb(175,169,164);
+    font-family: "Century Gothic";
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 18px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+    vertical-align: middle;
+}
+
+#body_content{
+
+    background: white;
+    height:4000px;
+    width: 1024px;
+    margin-bottom: 0px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 0px; 
+    overflow: hidden; 
+    position: relative; 
+    word-wrap: break-word;
+  
+
+
+    }
+
+#title_banner{
+	
+
+    font-size: 22px;
+    padding-top: 3px;
+    margin-bottom: 0px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 0px; 
+    overflow: hidden; 
+    position: relative; 
+    word-wrap: break-word;
+
+    
+	
+    }
+
+
+	
+#title_home{
+	
+    text-align: center;
+    font-family: "Arial";
+    font-size: 16px;
+    padding-top: 5px;
+    margin-bottom: 0px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 0px; 
+    overflow: hidden; 
+    position: relative; 
+    word-wrap: break-word;
+    border-radius : 3px 3px 0px 0px ;
+    border : 1px solid #CCCCCC;
+    background:-moz-linear-gradient(top,#fcfcfc,#e8e9ea); /* Firefox */
+    background:-webkit-gradient(linear,left top,left bottom,from(#fcfcfc),to(#e8e9ea)); /* Chrome, Safari */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc',endColorstr='#e8e9ea'); /* Internet Explorer */
+}
+
+
+#start_menu{
+    
+    
+    font-family: "Century Gothic";
+    background: none;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    display: block;
+    margin-top: 530px;
+    margin-right: 20px;
+    float: right;
+    text-align: center;
+   
+}
+
+
+#RandUnten {
+
+border-bottom: 0.5px solid #CCCCCC;
+}
+
+
+
+
+table#tableEvent{	
+	width: 90%;
+	cellspacing: 0; 
+	cellpadding: 10;
+	background-color:white;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 0px;
+	border-bottom: 0px;
+	font-family: "Arial";
+	font-size: 14px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+table#tableEvent td{
+	border: 1px solid #CCCCCC;
+	cellspacing: 0; 
+	cellpadding: 10;
+        font-family: "Arial";
+        font-size: 18px;
+
+	
+}
+
+td{
+        font-size: 13px;
+        font-weight: 100;
+        font-family: "Arial";
+# color: rgb(165,159,154);
+	color: rgb(105,109,104);
+
+}
+
+
+ul, menu, dir {
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 5px;
+-webkit-margin-after: 2px;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 5px;
+}
+
+li {
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 2px;
+-webkit-margin-after: 2px;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 5px;
+}
+
+
+
+.toprow{
+	background-color:#C81405;
+	color:white;
+	border-radius : 0px 10px;
+	font-family: "Arial";
+	font-size: 18px;
+
+}
+th{
+	background-color:#C81405;
+	color:white;
+	border: 0px;
+	font-family: "Arial";
+	font-size: 18px;
+	border-radius : 0px 10px;
+	
+}
+
+input {
+ border:1px solid grey;
+ background-color:#EEEEEE;
+ color: rgb(65, 69, 65);
+ }
+
+

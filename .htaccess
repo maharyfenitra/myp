@@ -1,0 +1,5 @@
+
+SetEnv PHP_VER 5
+
+php_flag display_errors 1
+

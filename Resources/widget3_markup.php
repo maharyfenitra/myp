@@ -1,0 +1,2 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title></title></head><body><a name="fb_share" type="button" href="http://www.facebook.com/sharer.php"><?php db_get_text($lang,'all','main_menu_store'); ?></a><script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script></body></html>

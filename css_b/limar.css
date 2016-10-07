@@ -1,0 +1,106 @@
+    body,html {
+         padding-top: 50px;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	/*line-height: 1.42857143;*/
+	
+	background: transparent linear-gradient(top, rgba(9, 21, 45, 0.17), rgb(255, 255, 255));
+   
+    }
+
+    .lang-menu {
+  	 min-width:auto;
+ 	 width:50px;
+    }
+
+    .nav-left-list{
+      font-size:14px;
+       padding-left:0px ; 
+       list-style: none;
+      
+    }
+      
+    .main-head{
+	color : black;
+    }
+
+			
+    .header{
+      	height : 10px;
+      	/*background-color : blue;*/
+    }
+
+    .body_center{
+      	
+    }
+
+    .nav_left{
+      	
+    }
+
+    .nav_right{
+      	height : 100px;
+    }
+      
+     
+    .footer{
+      	height : 30px;
+    }
+    
+    .navbar-inverse {
+	background:  linear-gradient(to bottom, rgb(255, 255, 255), rgba(9, 21, 45, 0.17));
+	border-color: #EAE4E4;
+    } 
+    
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+    color: #FFF7F7;
+    background-color: #C8C4C4;
+}
+
+    
+   .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+    color: #080707;
+    background-color: #C8C4C4;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+    color: red;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+    color: #0B0A0A;
+    background-color: #C8C4C4;
+}
+   
+   
+ 
+.navbar-inverse .navbar-nav > li > a {
+    color: #E61818;
+    }
+    
+
+.carousel-control.right {
+    right: 0px;
+    left: auto;
+    background-image: none;
+}
+    
+.carousel-control.left {
+    background-image: none;
+}
+ 
+.carousel-control {
+    color: #090909;
+}
+   
+    .row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.panel{
+  padding : 10px;
+}
+
+

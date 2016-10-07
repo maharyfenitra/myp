@@ -1,0 +1,111 @@
+<!-- Generic EO website header -->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta name="viewport" content="width=900" />
+<title><?php db_get_text($lang,'all','title'); ?></title>
+<meta name="description" content="<?php db_get_text($lang,'all','meta_description'); ?>" />
+<link rel="stylesheet" type="text/css" media="screen,print" href="Resources/EO.css" />
+<style type="text/css">
+</style>
+<script type="text/javascript" src="Scripts/iWebSite.js"></script>
+<script type="text/javascript" src="Scripts/iWebImage.js"></script>
+<script type="text/javascript" src="Scripts/iWebMediaGrid.js"></script>
+<script type="text/javascript" src="Scripts/Widgets/SharedResources/WidgetCommon.js"></script>
+<script type="text/javascript" src="Scripts/Widgets/HTMLRegion/Paste.js"></script>
+<script type="text/javascript" src="Resources/EO.js"></script>
+
+<script type="text/javascript" src="jquery-1.2.6.min.js"></script>
+
+
+<script type="text/javascript" src="lightbox2/js/prototype.js"></script>
+<script type="text/javascript" src="lightbox2/js/scriptaculous.js?load=effects,builder"></script>
+<script type="text/javascript" src="lightbox2/js/lightbox.js"></script>
+<link rel="stylesheet" href="lightbox2/css/lightbox.css" type="text/css" media="screen" /> 
+
+<script type="text/javascript">
+
+function slideSwitch() {
+    var $active = $('#slideshow DIV.active');
+
+    if ( $active.length == 0 ) $active = $('#slideshow DIV:last');
+
+    // use this to pull the divs in the order they appear in the markup
+    var $next =  $active.next().length ? $active.next()
+        : $('#slideshow DIV:first');
+
+    // uncomment below to pull the divs randomly
+    // var $sibs  = $active.siblings();
+    // var rndNum = Math.floor(Math.random() * $sibs.length );
+    // var $next  = $( $sibs[ rndNum ] );
+
+
+    $active.addClass('last-active');
+
+    $next.css({opacity: 0.0})
+        .addClass('active')
+        .animate({opacity: 1.0}, 1000, function() {
+            $active.removeClass('active last-active');
+        });
+}
+
+$(function() {
+    setInterval( "slideSwitch()", 5000 );
+});
+
+</script>
+
+<style type="text/css">
+
+/*** set the width and height to match your images **/
+
+#slideshow {
+    position:relative;
+    height:501px;
+}
+
+#slideshow DIV {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    opacity:0.0;
+    height: 501px;
+    background-color: #FFF;
+}
+
+#slideshow DIV.active {
+    z-index:10;
+    opacity:1.0;
+}
+
+#slideshow DIV.last-active {
+    z-index:9;
+}
+
+#slideshow DIV IMG {
+    height: 501px;
+    display: block;
+    border: 0;
+    margin-bottom: 10px;
+}
+
+</style>
+
+
+    <!--Google Analytics--->
+
+    <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1072291-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+     })();
+
+     </script>
+

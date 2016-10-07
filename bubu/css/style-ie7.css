@@ -1,0 +1,27 @@
+/*************************** General Styling ***************************/
+
+/* Table Styling */
+table {
+border-collapse: collapse;
+}
+
+
+/*************************** Footer ***************************/
+
+#footer-curve {
+margin-top: -1px;
+}
+
+
+/*************************** Comments Section ***************************/
+
+/* Comment Box */
+.comment-body {
+margin-top: -10px;
+}
+
+/* Comment Post Author */
+.bypostauthor .post-author {
+width: 98%;
+padding: 1%;
+}
