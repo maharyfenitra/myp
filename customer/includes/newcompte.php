@@ -1,4 +1,4 @@
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
 
 
 <form id="monForm" action="/customer/includes/files_recepter.php?lang=<?php echo $lang ?>" method="post">
@@ -43,69 +43,12 @@
 
     <tr><td><label for="birthday"><?php db_get_text($lang, 'all', 'customer_birthday'); ?> :</label></td><td>
 
-<style>
-	body{
-		font: 80% "Trebuchet MS", sans-serif;
-		margin: 10px;
-	}
-	.demoHeaders {
-		margin-top: 2em;
-	}
-	#dialog-link {
-		padding: .4em 1em .4em 20px;
-		text-decoration: none;
-		position: relative;
-	}
-	#dialog-link span.ui-icon {
-		margin: 0 5px 0 0;
-		position: absolute;
-		left: .2em;
-		top: 50%;
-		margin-top: -8px;
-	}
-	#icons {
-		margin: 0;
-		padding: 0;
-	}
-	#icons li {
-		margin: 2px;
-		position: relative;
-		padding: 4px 0;
-		cursor: pointer;
-		float: left;
-		list-style: none;
-	}
-	#icons span.ui-icon {
-		float: left;
-		margin: 0 4px;
-	}
-	.fakewindowcontain .ui-widget-overlay {
-		position: absolute;
-	}
-	select {
-		width: 300px;
-	}
-        .ui-datepicker-table
-          {
-            width :100%;
-            }
-        th {
-    color: #FFF;
-    font-family: "Arial";
-    font-size: 9px;
-}
-	</style>
-
+<link rel="stylesheet" type="text/css" href="customer.css" media="all"/>
 
 <input type="text" id="birthday" name="birthday" />
-<script src="jquery-ui/external/jquery/jquery.js"></script>
 <script src="jquery-ui/jquery-ui.js"></script>
 
-<script>
-     $("#birthday").datepicker({ changeMonth: true, changeYear: true, dateFormat: 'dd/mm/yy', yearRange: "1950:+nn" });
-     $('.ui-datepicker-calendar').width(100);
-  
-</script>
+
 </br></td></tr>
     <tr><td><label for="license"><?php db_get_text($lang, 'all', 'customer_license'); ?> :</label></td><td><input type="text" id="club" name="license" /></br></td></tr>
     <tr><td><label for="club"><?php db_get_text($lang, 'all', 'customer_club'); ?> :</label></td><td><input type="text" id="club" name="club" /></br></td></tr>
@@ -117,56 +60,9 @@
 
 <div id="welcome" style="display:none;"><h2><?php db_get_text($lang, 'all', 'customer_compte_created'); ?></h2></div>
 
-<script>
-
-$(document).ready(function() {
-    $('#monForm').on('submit', function(e) {
-
-     //Debut fonction
-        
-        e.preventDefault(); // J'empêche le comportement par défaut du navigateur, c-à-d de soumettre le formulaire
- 
-        var $this = $(this);
- 
-        var pseudo = $('#pseudo').val();
-        var mail = $('#mail').val();
-        var p_1=$('#password').val();
-        var p_2=$('#password_2').val();
-       // alert(p_1+"  "+p_2);
-        if(p_1!==p_2||p_1===''){
-           alert("<?php echo db_get_text_($lang, 'all', 'wrong_confirm_password'); ?>");
-            }else
-        if(pseudo === '' || mail === '') {
-            alert("<?php echo db_get_text_($lang, 'all', 'missing_important_field'); ?>");
-             //  return;
-                } else {
-             $("#monForm").hide();
-         $("#register").hide();
-         
-            $.ajax({
-                url: $this.attr('action'),
-                type: $this.attr('method'),
-                data: $this.serialize(),
-               // dataType: 'json', // JSON
-                success: function(json) {
-                         if(json!=0){
-                           $("#monForm").show();
-                           $("#register").show();
-                            alert("<?php db_get_text($lang, 'all', 'compte_already_exist'); ?>");
-                            }else{
-                            
-                            $("#welcome").show();
-                            
-               }
-                            //
-                   
-                }
+<script src="customer.js">
 
 
-            });
-        }
-    });
-});
 
 </script>  
 

@@ -227,22 +227,8 @@ echo $pagingLink;
  </table>
  <p>&nbsp;</p>
 </form>
-<script type="text/javascript">
+<script type="text/javascript" src="product.js">
   
-  $(".pdprice").click(function (){
-    var pdi = $(this).attr("alt").split("-");
-      $(this).html("<input type='text' id='pricein' style='text-align:right;' class='box' value='"+$(this).html()+"' />");
-          $("#pricein").focus();
-              var current = $(this);
-              $("#pricein").blur(function (){
-              var val=$(this).val();
-              current.html(val);
-              $.post("cycle.php",{"update_price_by_ajax":1,"pd_id" : pdi[0],"tid": pdi[1],"val" : val},function(data){
-                  console.log(data);
-              });
 
-      });
-   
-  })
 </script>
 

@@ -1,3 +1,9 @@
+
+<script
+        src="https://code.jquery.com/jquery-3.1.1.js"
+        integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+        crossorigin="anonymous"></script>
+
 <?php
 
 	require_once 'php_includes/config.php';
@@ -81,7 +87,7 @@ if (isset($_GET['step'])) {
     <?php 
     
          if($session_script){ ?>
-         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+         
            <script type="text/javascript">
              window.onload=f;
              function f(){
@@ -423,19 +429,7 @@ if (!(isSet($_POST['optPayment'])) && (isSet($_POST['h_optPayment'])&&isValidFie
 	           
 	           <?php include "php_includes/nav_left_bottom.php";?>
 
-  <!-- COPYRIGHT 
-	           <div id="copyright" style="height:30px; left:100px; position: absolute; top:950px; width: 1000px; z-index: 1; " class="copyright">
-	               <p style="padding-bottom: 0pt; padding-top: 0pt; "><?php db_get_text($lang, 'all', 'copyright'); ?></p>
-	           </div>-->
-	      
-			<!-- FACEBOOK 
-<div style="right: 100px; top: 950px; position: absolute; opacity: 1.00; height: 25px; width: 25px; z-index: 1;">
-	<a target="_blank" href="http://www.facebook.com/topskates">
-	<img src="images/facebook_logo.png" style="height: 25px; width: 25px;" />
-	<img src="images/facebook_logo_long.png" style="height: 32px; width: 90px;" />
-	</a>
-
-</div>-->
+  <!-- COPYRIGHT -->
 	</div>
 		
 	   </body>
